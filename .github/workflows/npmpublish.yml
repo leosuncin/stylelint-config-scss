@@ -38,7 +38,7 @@ jobs:
       - env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
         run: |
-          pm ci
+          npm ci
           npm publish
 
   publish-gpr:
@@ -58,7 +58,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.github_secret}}
         run: |
           npm ci
           npm publish
