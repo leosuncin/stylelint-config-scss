@@ -14,7 +14,7 @@ npm install --save-dev stylelint @suncin/stylelint-config-scss
 
 ## Usage
 
-Create a `.stylelint.json` with the next config:
+Create a `.stylelintrc.json` with the next config:
 
 ```json
 {
