@@ -1,5 +1,7 @@
 # Stylelint Shared Config for SCSS
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/leosuncin/stylelint-config-scss.svg)](https://greenkeeper.io/)
+
 Extends from the following configs:
 
 - [Recommended SCSS](https://npm.im/stylelint-config-recommended-scss)
